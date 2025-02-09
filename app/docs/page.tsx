@@ -28,6 +28,16 @@ const ApiDocs = () => {
               </pre>
 						</div>
 
+						<h3 className='text-xl sm:text-2xl font-semibold mb-4'>Available games</h3>
+						<p className='mb-4'>The following games are available:</p>
+						<div className='overflow-x-auto'>
+              <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
+                <code className='whitespace-pre break-words'>
+                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "mc", "roblox", "valorant"] }, null, 2)}
+                </code>
+              </pre>
+						</div>
+
 						<h3 className='text-xl sm:text-2xl font-semibold mb-4'>Responses</h3>
 						<p className='mb-4'>Successful response contains the encoded text.</p>
 						<div className='overflow-x-auto'>
@@ -79,6 +89,16 @@ const ApiDocs = () => {
               <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
                 <code className='whitespace-pre break-words'>
                   {encode(exampleRequestBody)}
+                </code>
+              </pre>
+						</div>
+
+						<h3 className='text-xl sm:text-2xl font-semibold mb-4'>Available games</h3>
+						<p className='mb-4'>The following games are available:</p>
+						<div className='overflow-x-auto'>
+              <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
+                <code className='whitespace-pre break-words'>
+                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "mc", "roblox", "valorant"] }, null, 2)}
                 </code>
               </pre>
 						</div>
