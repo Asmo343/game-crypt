@@ -1,7 +1,7 @@
 import {NextResponse} from "next/server";
 import {decode} from "../../../../lib/encoder";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 export async function POST(request: Request) {
   try {
     const reqjson = await request.json();
@@ -11,6 +11,13 @@ export async function POST(request: Request) {
     if (!text) {
       return NextResponse.json(
         {error: "The body text is required."},
+        {status: 400}
+      );
+    }
+
+    if (!game) {
+      return NextResponse.json(
+        {error: "The body game is required."},
         {status: 400}
       );
     }
