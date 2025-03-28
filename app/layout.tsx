@@ -1,10 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Red_Hat_Display, Space_Grotesk } from "next/font/google";
+import { Red_Hat_Display, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const redHatDisplay = Red_Hat_Display({
   subsets: ["latin"],
@@ -26,7 +24,7 @@ export const metadata: Metadata = {
   title: "GameCrypt - The best. I guess.",
   description: "Convert your text into GameCrypt.",
   authors: [{ name: "Asmodeus", url: "https://asmocore.eu" }],
-  keywords: ["fortnite", "league of legends", "Valorant", "gamecrypt", "text encoding", "encoder"],
+  keywords: ["Fortnite", "league of legends", "Valorant", "BeamNG", "Minecraft", "Roblox", "gamecrypt", "text encoding", "encoder"],
   applicationName: "GameCrypt",
   creator: "Asmodeus",
   icons: {
