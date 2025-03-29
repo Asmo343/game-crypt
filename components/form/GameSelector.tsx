@@ -19,7 +19,7 @@ const GameSelector: React.FC<GameSelectorProps> = ({ onGameChange }) => (
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="gd">Geometry Dash</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="fortnite">Fortnite</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="lol">League of Legends</SelectItem>
-                    <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="mc">Minecraft</SelectItem>
+                    <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="minecraft">Minecraft</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="roblox">Roblox</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="valorant">Valorant</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="cs2">Counter-Strike 2</SelectItem>
