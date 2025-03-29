@@ -33,7 +33,7 @@ const ApiDocs = () => {
 						<div className='overflow-x-auto'>
               <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
                 <code className='whitespace-pre break-words'>
-                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "mc", "roblox", "valorant"] }, null, 2)}
+                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "minecraft", "roblox", "valorant", "cs2"] }, null, 2)}
                 </code>
               </pre>
 						</div>
@@ -98,7 +98,7 @@ const ApiDocs = () => {
 						<div className='overflow-x-auto'>
               <pre className='bg-gray-800 text-white p-4 sm:p-6 rounded-lg mb-4'>
                 <code className='whitespace-pre break-words'>
-                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "mc", "roblox", "valorant"] }, null, 2)}
+                  {JSON.stringify({ games: ["fortnite", "beamng", "gd", "lol", "minecraft", "roblox", "valorant", "cs2"] }, null, 2)}
                 </code>
               </pre>
 						</div>
