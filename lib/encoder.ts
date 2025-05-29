@@ -13,6 +13,33 @@ interface Languages {
 }
 
 const languages: Languages = {
+  repo: [
+    "Huntsman",
+    "Gnome",
+    "Reaper",
+    "Clown",
+    "Mentalist",
+    "Banger",
+    "Chef",
+    "Trudge",
+    "Spewer",
+    "Hidden",
+    "Robe",
+    "Rugrat",
+    "Shadow Child",
+    "Bowtie",
+    "Peeper",
+    "Apex Predator",
+    "Headman",
+    "Upscream",
+    "The Muscle",
+    "The Solo Player",
+    "The Yapper",
+    "Soundboard Spammer",
+    "The One That Ruins the Run",
+    "Squealer",
+    "Stealth",
+  ],
   beamng: [
     "Car",
     "Cars",

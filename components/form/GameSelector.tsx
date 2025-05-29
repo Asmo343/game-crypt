@@ -23,6 +23,7 @@ const GameSelector: React.FC<GameSelectorProps> = ({ onGameChange }) => (
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="roblox">Roblox</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="valorant">Valorant</SelectItem>
                     <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="cs2">Counter-Strike 2</SelectItem>
+                    <SelectItem className='text-white focus:text-white hover:bg-dark-300 focus:bg-dark-300' value="repo">R.E.P.O</SelectItem>
                 </SelectGroup>
             </SelectContent>
         </Select>
